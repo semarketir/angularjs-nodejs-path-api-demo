@@ -1,0 +1,24 @@
+<div ng-controller="homeController">
+    <div class="block" ng-show="isLoading">
+        <p>{{textLoading}}</p>
+    </div>
+    <div class="nav" ng-show="isLogon">
+        <ul>
+            <li class="logout">
+                <a href="javascript://" ng-click="logout()">Logout</a>
+            </li>
+        </ul>
+    </div>
+    <div class="playlist">
+        <div ng-hide="isLoading">
+            <ul>
+                <li ng-repeat="data in playlist">
+                    <img src="{{ data.image }}" >
+                    <h3>{{ data.title }}</h3>
+                    <p>{{ data.artist }}</p>
+                    <path photo-moment="{{data}}"></path>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
