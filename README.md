@@ -68,7 +68,7 @@ The demo app is using NodeJS and NPM, please make sure if NodeJS and NPM have al
 ```sh
 <root-folder>
 └── support
-    ├── serverr
+    ├── server
     │   ├── config.js ( Set your client secret in this file )
     │   └── ...
     └── ...
