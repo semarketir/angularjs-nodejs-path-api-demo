@@ -3,7 +3,7 @@ import config from '../config';
 
 export default {
     /**
-     * The router function just for forward data from angular post request to partner API's Path
+     * In this case ( demo ), this router function just for forward data from angular post request to partner API's Path
      * So, remove some useless headers from previous ( angular ) request is needed for well
      * @see https://api.path.com/developers/docs#post-moment-photo ( From URL on request section )
      */
